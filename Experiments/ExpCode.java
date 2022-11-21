@@ -7,7 +7,7 @@ class ExpCode
     {  
     	String path = System.getProperty("user.dir");
 //    	System.out.println(path);
-        try{  
+        try{
         FileInputStream fstream = new FileInputStream(path+"\\src\\"+"Experiments\\ExpCode.java");
         BufferedReader br=new BufferedReader(new InputStreamReader(fstream));  
             //read data line by line from the file  
